@@ -4,7 +4,7 @@ import pytest
 import time
 
 def test_guest_cant_see_success_message(browser):
-    link="https://app.slack.com/client/TBSAS16AX/CDHPA1Z0C"
+    link="https://app.slack.com/client/__"
     page=SlackPage(browser, link)
     page.open()
     time.sleep(15)
